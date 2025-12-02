@@ -11,7 +11,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 fn part2() -> Result<(), Box<dyn std::error::Error>> {
     let file = File::open(
-        "problem-inputs/day01-1.txt",
+        "problem-inputs/day01.txt",
     )?;
     let reader = BufReader::new(file);
 
@@ -48,7 +48,7 @@ fn part2() -> Result<(), Box<dyn std::error::Error>> {
 
 fn part1() -> Result<(), Box<dyn std::error::Error>> {
     let file = File::open(
-        "problem-inputs/day01-1.txt",
+        "problem-inputs/day01.txt",
     )?;
     let reader = BufReader::new(file);
 
